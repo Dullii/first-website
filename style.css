@@ -19,7 +19,6 @@ ul {
     gap: 16px;
     list-style-type: none;
     font-size: 18px;
-    color: ;
 }
 
 a { 
@@ -37,9 +36,6 @@ a {
 
 }
 
-.left-side {
-   
-}
 
 span {
     font-size: 48px;
@@ -94,7 +90,7 @@ p {
 .image-two {
     display:flex;
     flex-direction:row;
-    width: 200px;
+    width: 25%;
     height: 200px;
     justify-content: space-around;
     align-items: center;
@@ -187,13 +183,22 @@ h3 {
 }
 
 #frame {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 }
 
-#block {
+.text {
     display:flex;
-    justify-content: space-around;
-    align-items:center
+    justify-content: center;
+    align-items: center;
+    
 }
