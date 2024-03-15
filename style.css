@@ -126,16 +126,6 @@ blockquote {
   justify-content: space-around;
 }
 
-.image-two {
-  display: flex;
-  flex-direction: row;
-  width: 25%;
-  height: 200px;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
 .teaser {
     flex-basis: 25%;
 }
@@ -201,12 +191,6 @@ blockquote {
   max-width: 1200px;
   border-radius: 10px;
   height: 180px;
-}
-
-#frame {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .container {
