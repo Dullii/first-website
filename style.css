@@ -1,204 +1,214 @@
+/**
+GLOBALS
+*/
 
-.header {
-   display: flex;
-   background-color: #1f2937;
-   flex-direction: row;
-   padding-bottom: 70px;
-   margin: 0px;
-   gap: 16px;
-   color: white;
-   justify-content: space-around;
-   
-
+* {
+  margin:0px;
 }
-
 
 ul {
-
-    display: flex;
-    gap: 16px;
-    list-style-type: none;
-    font-size: 18px;
+  display: flex;
+  gap: 16px;
+  list-style-type: none;
+  font-size: 18px;
 }
 
-a { 
-    text-decoration: none;
-    color: white;
+a {
+  text-decoration: none;
+  color: white;
 }
-
-.first {
-    display: flex;
-    background-color: #1f2937;
-    justify-content: space-around;
-    padding-bottom:  70px;
-    align-items:center;
- 
-
-}
-
 
 span {
-    font-size: 48px;
-    font-weight: bold;
-    color: #ffffff;
+  font-size: 48px;
+  font-weight: bold;
+  color: #ffffff;
 }
 
 p {
-    color: rgb(172, 172, 172);
-}
-
-
-.image {
-    width: 500px;
-    height: 200px;
-    margin-left: 50px;
-}
-
-.button {
-    background-color: #3882f6;
-    border: 8px;
-    display:flex;
-    font-size: 16px;
-    padding: 12px;
-    color: white;
-    font-weight: 700px;
-}
-
-
-.content {
-    max-width: 1000px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 16px;
-}
-
-.content-two {
-    display:flex;
-    flex-direction:row;
-    max-width: 1000px;
-    align-content:center;
-    background-color: white;
-    width: 100%;
-    gap: 16px;
-    justify-content: space-around;
-    
-
-}
-
-.image-two {
-    display:flex;
-    flex-direction:row;
-    width: 25%;
-    height: 200px;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-
-}
-
-.second {
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    flex-direction: column;
-    padding-bottom: 60px;
-
+  color: rgb(172, 172, 172);
 }
 
 h2 {
-    display: flex;
-    font-size: 45px;
-    flex-direction:row;
-    align-items: center;
-    justify-content: center;
-    padding-top: 40px;
-}
-
-.top {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.third {
-    display:flex;
-    background-color: rgb(214, 213, 213);
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 40px;
-}
-
-.content-three {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 1000px;
-    width: 100%;
-    padding-top: 80px;
-    padding-bottom: 40px;
-}
-
-blockquote {
-    display:flex;
-    font-size: 35px;
-    font-weight: 100px;
-}
-
-
-#quote {
-    display: flex;
-    justify-content: flex-end;
-    align-self: flex-end;
-    font-size: 30px;
-    font-weight: bold;
-    color: black;
-}
-
-.fourth {
-    display:flex;
-    justify-content:space-around;
-    align-items:space-around;
-    background-color: rgb(250, 245, 245);
-    padding-bottom: 80px;
-}
-
-.content-four {
-    display:flex;
-    justify-content: space-around;
-    align-items: space-around;
-    background-color: rgb(74, 74, 226);
-    width: 100%;
-    max-width: 1200px;
-    margin-top: 100px;
+  display: flex;
+  font-size: 45px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
 }
 
 h3 {
-    display:flex;
-    justify-content: flex-start;
-    align-items:space-around;
-    font-size: 48px;
-    color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: space-around;
+  font-size: 32px;
+  color: white;
+}
+
+blockquote {
+  display: flex;
+  font-size: 36px;
+  margin: 0;
+  color: #1f2937;
+  font-style:italic;
+}
+
+.header {
+  display: flex;
+  background-color: #1f2937;
+  flex-direction: row;
+  padding-bottom: 70px;
+  margin: 0px;
+  gap: 16px;
+  color: white;
+  justify-content: space-around;
+}
+
+.footer {
+  background-color: #1f2937;
+  display:flex;
+  color: white;
+  font-size: 20px;
+  padding: 30px;
+  justify-content: center;
+  align-items:center;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+}
+
+.first {
+  background-color: #1f2937;
+  justify-content: space-around;
+  padding-bottom: 70px;
+}
+
+.image {
+  width: 500px;
+  height: 200px;
+  margin-left: 50px;
+}
+
+.button {
+  background-color: #3882f6;
+  border: 8px;
+  display: flex;
+  font-size: 16px;
+  padding: 12px;
+  color: white;
+  font-weight: 700px;
+}
+
+.content {
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.content-two {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  align-content: center;
+  background-color: white;
+  width: 100%;
+  gap: 30px;
+  justify-content: space-around;
+}
+
+.image-two {
+  display: flex;
+  flex-direction: row;
+  width: 25%;
+  height: 200px;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.teaser {
+    flex-basis: 25%;
+}
+.teaser-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    padding-top: 30px;
+}
+
+.second {
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 60px;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.third {
+  display: flex;
+  background-color: #e5e7eb;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.content-three {
+  max-width: 800px;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+#quote {
+  text-align: right;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+
+.fourth {
+  display: flex;
+  justify-content: space-around;
+  align-items: space-around;
+  background-color: rgb(250, 245, 245);
+  padding-bottom: 80px;
+}
+
+.content-four {
+  display: flex;
+  justify-content: space-around;
+  align-items: space-around;
+  background-color: rgb(74, 74, 226);
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 100px;
 }
 
 #frame {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px;
 }
 
 .text {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  text-align: center;
 }
